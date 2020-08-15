@@ -216,7 +216,7 @@
       a = k("style");
       a.type = "text/css";
       a.textContent =
-        '@font-face {\n  font-family: \'SQMarket-regular\';\n  src:url("https://d2dyi2pd86a6cw.cloudfront.net/market/assets/sqmarket-regular.eot");\n  src:url("https://d2dyi2pd86a6cw.cloudfront.net/market/assets/sqmarket-regular.eot?#iefix") format("eot"),\n  url("https://d2dyi2pd86a6cw.cloudfront.net/market/assets/sqmarket-regular.woff") format("woff"),\n  url("https://d2dyi2pd86a6cw.cloudfront.net/market/assets/sqmarket-regular.ttf") format("truetype");\n  font-weight:400;font-style:normal;\n}';
+        '@font-face {\n  font-family: \'SQMarket-regular\';\n  src:url("../fonts/sqmarket-regular.eot");\n  src:url("../fonts/sqmarket-regular.eot?#iefix") format("eot"),\n  url("../fonts/sqmarket-regular.woff") format("woff"),\n  url("../fonts/sqmarket-regular.ttf") format("truetype");\n  font-weight:400;font-style:normal;\n}';
       return n.querySelectorAll("head")[0].appendChild(a);
     };
     x = function (a) {
